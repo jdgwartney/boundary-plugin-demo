@@ -1,6 +1,6 @@
 {
     "description": "Boundary Demo Plugin",
-    "command": "bash plugin.sh $(param_a) $(param_b) $(param_c)",
+    "command": "bash plugin.sh $(param_a) $(param_b) $(param_c) $(param_d)",
     "metrics" : ["BOUNDARY_DEMO_METRIC"],
  "paramSchema": [
         {
@@ -26,6 +26,14 @@
             "type": "string",
             "default": "localhost",
             "required": true
+        },
+        {
+            "title": "Enabled",
+            "name": "param_d",
+            "description": "A simple text field. Can have a default value and be required.",
+            "type": "boolean",
+            "default": "true",
+            "required": false
         }
         ]
 }
