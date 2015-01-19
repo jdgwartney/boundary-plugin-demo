@@ -1,8 +1,8 @@
 {
     "description": "Boundary Demo Plugin",
-    "command": "plugin.sh $(param_a) $(param_b) $(param_c)",
+    "command": "bash plugin.sh $(param_a) $(param_b) $(param_c)",
     "metrics" : ["BOUNDARY_DEMO_METRIC"],
-    "postExtract": "post-extract.sh",
+    "postExtract": "bash post-extract.sh",
 
  "paramSchema": [
         {
