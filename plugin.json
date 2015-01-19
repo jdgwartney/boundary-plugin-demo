@@ -1,0 +1,34 @@
+{
+    "description": "Boundary Demo Plugin",
+    "command": "plugin.sh $(param_a) $(param_b) $(param_c)",
+    "metrics" : ["BOUNDARY_DEMO_METRIC"],
+    "postExtract": "post-extract.sh",
+
+ "paramSchema": [
+        {
+            "title": "Parameter A",
+            "name": "param_a",
+            "description": "A simple text field. Can have a default value and be required.",
+            "type": "string",
+            "default": "BOUNDARY_DEMO_METRIC",
+            "required": true
+        },
+        {
+            "title": "Parameter B",
+            "name": "param_b",
+            "description": "A simple text field. Can have a default value and be required.",
+            "type": "string",
+            "default": "100",
+            "required": true
+        },
+        {
+            "title": "Parameter C",
+            "name": "param_c",
+            "description": "A simple text field. Can have a default value and be required.",
+            "type": "string",
+            "default": "localhost",
+            "required": true
+        }
+        ]
+}
+
