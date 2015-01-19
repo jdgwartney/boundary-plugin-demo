@@ -1,4 +1,4 @@
 #!/bin/bash
 
 echo "Running..." >&2
-exit 1
+exit 0
