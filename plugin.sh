@@ -1,7 +1,5 @@
 #!/bin/bash
 
-
-
 while :
 do
   echo "$1 $2 $3"
