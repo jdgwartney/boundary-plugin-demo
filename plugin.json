@@ -36,5 +36,21 @@
             "required": false
         }
         ]
+  "map": [
+    {
+      "mbean": "java.lang:name=Metaspace,type=MemoryPool",
+      "attributes": [
+        {
+          "attribute": "Usage",
+          "dataType": "javax.management.openmbean.CompositeData",
+          "metricName": "JAVA.LANG.MEMORYPOOL.METASPACE.USAGE",
+          "key": "used",
+          "metricType": "standard",
+          "scale": 1,
+          "enabled": true
+        }
+        ],
+      "enabled": true
+    }
 }
 
