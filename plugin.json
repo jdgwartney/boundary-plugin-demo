@@ -1,6 +1,6 @@
 {
     "description": "Boundary Demo Plugin",
-    "command": "bash plugin.sh $(param_a) $(param_b) $(param_c) $(param_d)",
+    "command": "bash plugin.sh '$(param_a)' '$(param_b)' '$(param_c)' '$(param_d)'",
     "metrics" : ["BOUNDARY_DEMO_METRIC"],
  "paramSchema": [
         {
