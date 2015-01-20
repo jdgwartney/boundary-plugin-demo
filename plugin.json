@@ -35,7 +35,7 @@
             "default": "true",
             "required": false
         }
-        ]
+        ],
   "map": [
     {
       "mbean": "java.lang:name=Metaspace,type=MemoryPool",
